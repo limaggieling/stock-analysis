@@ -18,6 +18,8 @@ We wanted our code to be capable of reading through the provided data from the y
 
 ![inputbox_code](Resources/inputbox_code.png)
 
+![inputbox_prompt](Resources/inputbox_prompt.png)
+
 We set up our output sheet to have 3 columns; ticker, total volume, and return, that would save our calculated values to their respective stock ticker name. We took advantage of using an array to store the ticker data and accessed the specific stock ticker by its index. Then, VBA was able to readby looping through each row and updating the output columns through the use of if-then statements so long as the ticker value matched the stock ticker we wanted to analyze.
 
 ![for_loop_if_then_statements_code](Resources/for_loop_if_then_statements_code.png)
